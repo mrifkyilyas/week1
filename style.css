@@ -1,12 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
+
 
 body {
 	margin:0px;
 	padding:0px;
 	background:#390d60;
 	font-family:Arial, Helvetica, sans-serif;
-	
+
 }
 a{
 	text-decoration:none; }
@@ -15,7 +14,7 @@ a{
 	background:#27212d;
 	height:70px;
 	width:100%;
-	
+
 }
 #box-atas-con {
 	width:1024px;
@@ -31,13 +30,13 @@ a{
 		background:#27212d;
 	opacity:100%;
 	z-index:99;
-	
+
 }
 #navigasi {
 	width:72%;
 	height:70px;
 	float:right;
-	
+
 }
 
 #navigasi ul{list-style-type:none;
@@ -48,31 +47,31 @@ padding-left:0px;
 float:left;
 
  }
- 
- #navigasi li{ 
+
+ #navigasi li{
  display:inline-block;
  text-decoration: none;
  height:70px;
 padding-top:25px;
 transition: background 1s ease-in-out;
- 
- 
- 
+
+
+
  }
   #navigasi ul li:hover{
 	 background:#390d60;
 	 height:40px;
 	 transition: background 1s ease-in-out;
  }
- 
- 
+
+
  #navigasi a {
 	 text-decoration:none;
 	 font-family:Verdana, Geneva, sans-serif;
 	 color:#FFF;
 	 margin:10px;
  }
- 
+
  #navigasi .search {
 	 border:none;
 	 height:25px;
@@ -84,14 +83,14 @@ transition: background 1s ease-in-out;
 	 z-index:60;
 	 margin-bottom:-160px;
  }
- 
+
  #box-konten {
 	 width:1024px;
-	
+
 	 height:450px;
 	 margin-top:50px;
 	 margin-bottom:50px; }
-	 
+
 	 #bgmenu {width:1024px;
 	 height:50px;
 	 background:#000;
@@ -105,22 +104,22 @@ transition: background 1s ease-in-out;
 		 padding-top:10px;
 		 padding-right:10px;
 	 }
-	 
-	 
+
+
 	 #konten {
 		 width:1024px;
 		 height:400px;
 		 background:#FFF;
 	 }
-	 
+
 	 #konten-kanan {
 		 float:right;
 		 width:700px;
-		
-		 
-		 
+
+
+
 	 }
-	 
+
 	 #subjudul{
 	 background:#f39c12;
 	  font-family:Arial, Helvetica, sans-serif;
@@ -130,19 +129,19 @@ transition: background 1s ease-in-out;
 	  padding-top:12px;
 	  text-align:left;
 	  margin-left:20px;
-	  
-	  
+
+
 	  font-weight:bold;
-	  
-	 
+
+
 	 margin:0px;
-	 } 
-	 
+	 }
+
 	 #slideberita {
 		 height:100%;
 		 width:px;
 		 margin:0px;
-		 
+
 	 }
 	 #gambarslideberita {
 		 height:100%;
@@ -151,7 +150,7 @@ transition: background 1s ease-in-out;
 		 margin:0px;
 		 background:#F7F7F7;
 		 padding-left:0px;
-		 
+
 	 }
 	 #isislideberita{
 		 height:100%;
@@ -160,15 +159,15 @@ transition: background 1s ease-in-out;
 		 padding-right:30px;
 		 padding-left:10px;
 		 }
-		 
+
 		 #tgl-slide {
 		 color:#dadada;
 		 text-align:right;}
-		 
+
 		 #isislide{
 			 text-align:left;
 		 }
-		 
+
 	 #konten-kiri {float:left;
 	 width:300px;
 	 padding-right:2%;
@@ -178,21 +177,21 @@ transition: background 1s ease-in-out;
 		 padding-top:13x;
 		 padding-bottom:15px;
 		 }
-		 
+
 		  #konten-kiri li a{
 		  text-decoration:none;
 		  color:#003;}
-	 
+
 	 .bpopuler {
 		 margin-top:20px;
 		  font-size:35px;
 	  padding-top:11px;
 	  font-family:Arial, Helvetica, sans-serif;
-	   
+
 	  height:60px;
-	  
+
 	 }
-	 
+
 	 #konten-bawah {
 		 width:1024px;
 		 height:400px;
@@ -201,7 +200,7 @@ transition: background 1s ease-in-out;
 		 margin-top:20px;
 	 }
 	 #konten-bawah h1{
-		
+
 	  font-family:Arial, Helvetica, sans-serif;
 	  color:#2A2A2A;
 	  height:50px;
@@ -209,33 +208,32 @@ transition: background 1s ease-in-out;
 	  padding-top:12px;
 	  text-align:left;
 	  margin-left:20px;
-	  
-	  
+
+
 	  font-weight:bold;
-	  
-	 
+
+
 	 margin:0px;
 	 }
 		 #berita-sekolah {
 		 width:33%;
-		 height:360px; 
+		 height:360px;
 		 float:left;
 		 border-right:#390d60 dotted ;}
-		 
-		 
+
+
 		 #berita-akademik {
 		 width:33%;
 		 height:360px;
 		 float:left;
 		 border-right:#390d60 dotted ; }
-		 
-		 
+
+
 		 #bursa-kerja {
 		 width:33%;
 		 height:360px;
 		 float:right; }
-		 
-		 
-		 
+
+
+
 		 }
-	 
